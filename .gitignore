@@ -1,0 +1,60 @@
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the build
+/build/
+
+# Directory for test results
+/testdata/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+.project
+.classpath
+.cproject
+
+# Go dependencies
+/vendor/
+Gopkg.lock
+Gopkg.toml
+
+# Binary output
+bin/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage files
+*.coverprofile
+*.coverage
+*.lcov
+
+# Test binaries
+*_test.go
+
+# Others
+node_modules/
+*.bak
+*.orig
